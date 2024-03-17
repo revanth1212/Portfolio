@@ -1,0 +1,59 @@
+/* Home.css */
+
+.profile {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  animation: pop-up 0.5s ease forwards;
+  font-size: larger;
+}
+
+.boxed-section {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.boxed-section:hover {
+  border-color: #fff;
+}
+
+.pop-up-heading {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: pop-up 0.5s ease forwards;
+}
+
+@keyframes pop-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.links a {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #ccc;
+}
+
+.intermediate {
+  color: #f0a500; /* Adjust color for intermediate level */
+  font-weight: bold; /* Highlight intermediate level */
+}
+
+.beginner {
+  color: #ff0000; /* Adjust color for beginner level */
+  font-weight: bold; /* Highlight beginner level */
+}

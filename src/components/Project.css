@@ -1,0 +1,35 @@
+.project {
+    color: #fff;
+    padding: 20px;
+    font-size: larger;
+  }
+  
+  .project h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project-description {
+    padding: 30px;
+    line-height: 30px;
+    background-color: #1a1a1a;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .project-description h3 {
+    color: #fff;
+    
+    margin-bottom: 10px;
+  }
+  
+  .project-description p {
+    color: #fff;
+    
+    margin-bottom: 0;
+  }
+  
+  .project-description:hover {
+    transform: scale(1.05);
+    border-color: #fff; /* Change border color on hover */
+  }
+  
